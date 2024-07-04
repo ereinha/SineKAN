@@ -1,4 +1,4 @@
-#  SineKAN: Kolmogorov-Arnold Networks Using Sinusoidal Activation Functions
+##  SineKAN: Kolmogorov-Arnold Networks Using Sinusoidal Activation Functions
 
 Recent work has established an alternative to traditional multi-layer perceptron neural networks in
 the form of Kolmogorov-Arnold Networks (KAN). The general KAN framework uses learnable
@@ -9,6 +9,6 @@ be replaced by grids of re-weighted sine functions. We show that this leads to b
 numerical performance to B-Spline KAN models on the MNIST benchmark, while also providing a
 substantial speed increase on the order of 4-9 times
 
-# Google Colab demo
+## Google Colab demo
 
 [SineKAN_MNIST_Demo.ipynb](https://github.com/ereinha/SineKAN/blob/main/SineKAN_MNIST_Demo.ipynb)
