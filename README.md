@@ -9,6 +9,8 @@ be replaced by grids of re-weighted sine functions. We show that this leads to b
 numerical performance to B-Spline KAN models on the MNIST benchmark, while also providing a
 substantial speed increase on the order of 4-9 times
 
+https://arxiv.org/abs/2407.04149
+
 ## Google Colab demo
 
 [SineKAN_MNIST_Demo.ipynb](https://github.com/ereinha/SineKAN/blob/main/SineKAN_MNIST_Demo.ipynb)
