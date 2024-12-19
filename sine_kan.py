@@ -67,7 +67,7 @@ class SineKAN(torch.nn.Module):
 
         self.layers = torch.nn.ModuleList([
             SineKANLayer(
-                in_dim, out_dim, grid_size=grid_size, is_first=True
+                in_dim, out_dim, device, grid_size=grid_size, is_first=True
             ) if i == 0 else SineKANLayer(
                 in_dim, out_dim, device, grid_size=grid_size,
             ) for i, (in_dim, out_dim) in enumerate(zip(layers_hidden[:-1], layers_hidden[1:]))
